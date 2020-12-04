@@ -1,0 +1,85 @@
+
+.header-container {    
+        display: flex;    
+        font-size: 1.4em;    
+        background-color: darkgreen;    
+        padding: 2%;    
+        justify-content: left;    
+        align-items: left;}
+.header-container .header-item {    
+        flex: 1 0 auto;     
+        min-width: 300px;}
+.header-container .header-item a {    
+    color:darkgreen;    
+    background-color: white;    
+    padding: 2%;    
+    border-radius: 9px;
+}
+    .header-container .header-item a:hover {    
+        background-color: rgb(141, 136, 136);
+    }
+body {    
+    background-color:white;
+}
+.grid-results {    
+    display: grid;    
+    grid-template-columns: 3fr 1fr;
+}
+.grid-buttons {    
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-buttons .grid-item, .grid-results .grid-item {    
+    text-align: center;    
+    background-color: orange;   
+    border-radius: 50%;    
+    padding: 6% 3%;    
+    margin: 5%;    
+    font-size: 6em;    
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: 500;    
+    cursor: pointer;}
+.grid-results .grid-item:first-of-type {    
+    border-radius: 0%;    
+    background-color:grey;
+}
+.grid-item:hover {    
+    background-color: rgba(164, 186, 187, 0.836);
+}
+.grid-item:active {    
+    background-color: rgba(212, 168, 126, 0.7);    
+    box-shadow: 0px 2px 5px grey ;    
+    transform: translateY(1px);
+}
+.mean-gridz-container {    display:flex;    
+    flex-flow:row wrap;
+}
+.mean-gridz-item {    
+    flex: 0 0 auto;    
+    border: 1px solid black;    
+    margin: 2px;    
+    width: 29%;    
+    /* max-width:30%;    
+    min-width:30%; */    
+    justify-content:center;
+}
+#inputtext{
+    width:75%;
+    border: 3px solid green;
+} 
+#button_v_3{
+    width: 20%;
+    
+    border: 3px solid green;
+
+}
+#textinput{
+    width: 100%;
+    border: 5px solid black;
+    line-height: 32px;
+}
+.head {
+    background-color: blue;
+    width: 100%;
+    
+}
