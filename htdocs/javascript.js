@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
 
 
-$(document).append('<p>Hello world</p>')
+let Buttons = $('body').append('<div class="Ajax">Hello world</div>')
 
 
 
