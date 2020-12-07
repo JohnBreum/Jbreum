@@ -1,7 +1,8 @@
-jQuery(document).ready(function($){
+jQuery(Document).ready(function($){
 
 
-let Buttons = $('body').append('<div class="buttons"></div>')
+let Buttons = $('body').append('<div class="buttons">work</div>')
+console.log(Buttons)
 
 
 
